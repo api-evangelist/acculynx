@@ -64,5 +64,146 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AccuLynx is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://acculynx.com/
+AccuLynx provides a cloud‑based roofing CRM and business management platform that helps roofing contractors manage sales pipelines, production, finance, crew coordination, and customer relationships. The SaaS solution includes mobile field apps, integrated payment processing, document automation, and extensive reporting, targeting the construction and roofing industry.
+
+**Areas:** Company · Roofing · CRM · SaaS · Construction
+
+## AccuLynx on APIs.io
+
+Everything profiled for AccuLynx is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/acculynx/](https://apis.io/providers/acculynx/)** — or go straight to one of the APIs or properties below.
+
+### APIs (16)
+
+- [AccuLynx Accu Lynx Common API](https://apis.io/apis/acculynx/acculynx-acculynxcommon-api/) — The accuLynxCommon API from AccuLynx — 5 operation(s) for acculynxcommon.
+- [AccuLynx Calendar API](https://apis.io/apis/acculynx/acculynx-calendar-api/) — Manage company calendars and their appointments.
+- [AccuLynx Company API](https://apis.io/apis/acculynx/acculynx-company-api/) — Manage company-level configuration, including job file settings, lead sources, workflow milestones, account types, and payment methods.
+- [AccuLynx Contacts API](https://apis.io/apis/acculynx/acculynx-contacts-api/) — Manage contacts and their associated phone numbers, email addresses, notes, logs, and job relationships.
+- [AccuLynx Diagnostics API](https://apis.io/apis/acculynx/acculynx-diagnostics-api/) — Verify API availability and connectivity.
+- [AccuLynx Estimates API](https://apis.io/apis/acculynx/acculynx-estimates-api/) — Manage estimates and their sections and line items.
+- [AccuLynx Financials API](https://apis.io/apis/acculynx/acculynx-financials-api/) — Manage financial records, worksheets, worksheet items, and amendments for a job.
+- [AccuLynx Invoices API](https://apis.io/apis/acculynx/acculynx-invoices-api/) — Manage invoice records.
+- [AccuLynx Jobs API](https://apis.io/apis/acculynx/acculynx-jobs-api/) — Manage jobs and their associated data, including address, contacts, custom fields, financials, history, insurance, measurements, messages, milestones,…
+- [AccuLynx Leads API](https://apis.io/apis/acculynx/acculynx-leads-api/) — Manage lead records and their history.
+- [AccuLynx Reports API](https://apis.io/apis/acculynx/acculynx-reports-api/) — Manage scheduled report instances and their recipients.
+- [AccuLynx Subscriptions API](https://apis.io/apis/acculynx/acculynx-subscriptions-api/) — Subscription related endpoints
+- [AccuLynx Supplements API](https://apis.io/apis/acculynx/acculynx-supplements-api/) — Manage insurance supplement claims and their associated items and notations.
+- [AccuLynx Topics API](https://apis.io/apis/acculynx/acculynx-topics-api/) — Topics related endpoints
+- [AccuLynx Users API](https://apis.io/apis/acculynx/acculynx-users-api/) — Manage user accounts within the company.
+- [AccuLynx Webhooks API](https://apis.io/apis/acculynx/acculynx-webhooks-api-api/) — The Webhooks API API from AccuLynx — 0 operation(s) for webhooks api.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Acculynx Webhooks](https://apis.io/asyncapis/acculynx/acculynx-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Acculynx Agentic Access](https://apis.io/agentic-access/acculynx/acculynx-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Acculynx Context](https://apis.io/jsonld/acculynx/acculynx-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Acculynx Api V2 Overlay](https://apis.io/overlays/acculynx/acculynx-api-v2-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AccuLynx API Rules](https://apis.io/rules/acculynx/acculynx-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Acculynx Authentication](https://apis.io/security/acculynx/acculynx-authentication/)
+- [Acculynx Domain Security](https://apis.io/security/acculynx/acculynx-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Acculynx Rate Limits](https://apis.io/rate-limits/acculynx/acculynx-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://acculynx.com/)
+- [Documentation](https://apidocs.acculynx.com/)
+- [Getting started](https://acculynx.com/demonstration-request/)
+- [API reference](https://apidocs.acculynx.com/reference)
+- [Pricing](https://acculynx.com/pricing-request/)
+- [Support](https://acculynx.com/support/)
+- [Changelog](https://apidocs.acculynx.com/changelog)
+- [Blog](https://acculynx.com/blog/)
+- [Trust centre](https://trust.acculynx.com/)
+- [Privacy policy](https://acculynx.com/privacy-policy/)
+- [GitHub](https://github.com/AccuLynx)
+- [Status](https://status.acculynx.com/)
+
+## API Evangelist rating
+
+**Kin Score 59.2** — strong · rubric 0.24.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 65.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 73.2 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 28.9 |
+
+**Agent readiness 55.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/acculynx/](https://apis.io/providers/acculynx/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AccuLynx: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/acculynx/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
