@@ -64,15 +64,15 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AccuLynx provides a cloud‑based roofing CRM and business management platform that helps roofing contractors manage sales pipelines, production, finance, crew coordination, and customer relationships. The SaaS solution includes mobile field apps, integrated payment processing, document automation, and extensive reporting, targeting the construction and roofing industry.
+AccuLynx provides a cloud‑based roofing contractor management platform that combines customer relationship management, job scheduling, estimating, finance, and field mobile applications into a single SaaS solution for roofing companies. The system enables real‑time collaboration between office staff and field crews, automates document generation, integrates with accounting software, and offers reporting and analytics to improve productivity and profitability.
 
-**Areas:** Company · Roofing · CRM · SaaS · Construction
+**Areas:** Company · CRM · Roofing · SaaS · Construction
 
 ## AccuLynx on APIs.io
 
 Everything profiled for AccuLynx is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/acculynx/](https://apis.io/providers/acculynx/)** — or go straight to one of the APIs or properties below.
 
-### APIs (16)
+### APIs (15)
 
 - [AccuLynx Accu Lynx Common API](https://apis.io/apis/acculynx/acculynx-acculynxcommon-api/) — The accuLynxCommon API from AccuLynx — 5 operation(s) for acculynxcommon.
 - [AccuLynx Calendar API](https://apis.io/apis/acculynx/acculynx-calendar-api/) — Manage company calendars and their appointments.
@@ -89,7 +89,6 @@ Everything profiled for AccuLynx is published on APIs.io rather than in this rep
 - [AccuLynx Supplements API](https://apis.io/apis/acculynx/acculynx-supplements-api/) — Manage insurance supplement claims and their associated items and notations.
 - [AccuLynx Topics API](https://apis.io/apis/acculynx/acculynx-topics-api/) — Topics related endpoints
 - [AccuLynx Users API](https://apis.io/apis/acculynx/acculynx-users-api/) — Manage user accounts within the company.
-- [AccuLynx Webhooks API](https://apis.io/apis/acculynx/acculynx-webhooks-api-api/) — The Webhooks API API from AccuLynx — 0 operation(s) for webhooks api.
 
 ### Published properties
 
@@ -106,6 +105,23 @@ Event-driven and webhook contracts.
 Which operations an agent can call, which act, and which need a human in the loop.
 
 - [Acculynx Agentic Access](https://apis.io/agentic-access/acculynx/acculynx-agentic-access/)
+
+#### JSON Schema (12)
+
+The data models the API reads and writes.
+
+- [calendarEvent](https://apis.io/schemas/acculynx/acculynx-calendar-event/)
+- [estimateItem](https://apis.io/schemas/acculynx/acculynx-estimate-item/)
+- [invoice](https://apis.io/schemas/acculynx/acculynx-invoice/)
+- [job](https://apis.io/schemas/acculynx/acculynx-job/)
+- [jobContact](https://apis.io/schemas/acculynx/acculynx-job-contact/)
+- [jobMeasurementsPostFiles](https://apis.io/schemas/acculynx/acculynx-job-measurements-post-files/)
+- [subscription](https://apis.io/schemas/acculynx/acculynx-subscription/)
+- [subscriptionBodyPost](https://apis.io/schemas/acculynx/acculynx-subscription-body-post/)
+- [subscriptionBodyPut](https://apis.io/schemas/acculynx/acculynx-subscription-body-put/)
+- [subscriptionCollection](https://apis.io/schemas/acculynx/acculynx-subscription-collection/)
+- [testEventBodyPost](https://apis.io/schemas/acculynx/acculynx-test-event-body-post/)
+- [topicCollection](https://apis.io/schemas/acculynx/acculynx-topic-collection/)
 
 #### JSON-LD (1)
 
@@ -132,6 +148,12 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Acculynx Authentication](https://apis.io/security/acculynx/acculynx-authentication/)
 - [Acculynx Domain Security](https://apis.io/security/acculynx/acculynx-domain-security/)
 
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Acculynx Plans Pricing](https://apis.io/plans/acculynx/acculynx-plans-pricing/)
+
 #### Rate limits (1)
 
 Published request limits.
@@ -144,31 +166,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://acculynx.com/)
 - [Documentation](https://apidocs.acculynx.com/)
-- [Getting started](https://acculynx.com/demonstration-request/)
+- [Getting started](https://apidocs.acculynx.com/docs/getting-started)
 - [API reference](https://apidocs.acculynx.com/reference)
 - [Pricing](https://acculynx.com/pricing-request/)
+- [Sign up](https://my.acculynx.com/signin)
 - [Support](https://acculynx.com/support/)
 - [Changelog](https://apidocs.acculynx.com/changelog)
 - [Blog](https://acculynx.com/blog/)
 - [Trust centre](https://trust.acculynx.com/)
-- [Privacy policy](https://acculynx.com/privacy-policy/)
+- [Terms of service](https://acculynx.com/terms-of-use/)
+- [Privacy policy](https://my.acculynx.com/privacy-policy)
 - [GitHub](https://github.com/AccuLynx)
-- [Status](https://status.acculynx.com/)
 
 ## API Evangelist rating
 
-**Kin Score 59.2** — strong · rubric 0.24.0 · scored 2026-10-28
+**Kin Score 64.1** — strong · rubric 0.25.0 · scored 2026-10-28
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
-| Contract quality | 65.5 |
+| Discoverability | 66.1 |
+| Contract quality | 72.6 |
 | Contract governance | 79.1 |
-| Operational transparency | 73.2 |
-| Developer ergonomics | 54.0 |
-| Access clarity | 28.9 |
+| Operational transparency | 47.9 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 52.6 |
 
-**Agent readiness 55.2** — agent-ready (gated down from agent-native)
+**Agent readiness 51.2** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -182,7 +205,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | partial |
 | Rate Limit Signal | verified |
 | Event Surface Described | unknown |
-| Agent Skills | unknown |
+| Agent Skills | — |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -191,8 +214,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
 
-**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/acculynx/](https://apis.io/providers/acculynx/).
 
